@@ -1,7 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
+import { doorReducer } from "../Door/doorSlice";
 
 export const store = configureStore({
   reducer: {
+    door: doorReducer,
+    
   },
 });
 
