@@ -8,9 +8,6 @@ const App = () => {
         <h2 className="text-center">Дверь</h2>
         <Door/>
       </div>
-      <div className="col-6">
-        <h2 className="text-center">Калькулятор</h2>
-      </div>
     </div>
   );
 }

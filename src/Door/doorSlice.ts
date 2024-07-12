@@ -24,7 +24,6 @@ export const doorSlice = createSlice({
   reducers: {
     addValue: (state, action: PayloadAction<string>) => {
       state.value += action.payload;
-      console.log(state.value);
     },
     slice: (state) => {
       if (state.value.length > 0) {
